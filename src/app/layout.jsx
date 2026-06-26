@@ -1,6 +1,5 @@
-import { Raleway, Roboto, Josefin_Sans } from "next/font/google";
+import { Raleway, Roboto, Josefin_Sans ,Viga} from "next/font/google";
 import "./globals.css";
-import Navbar from "@/Components/Navbar";
 
 const geistSans = Raleway({
 });
@@ -9,6 +8,10 @@ const openSans = Roboto({
 });
 
 const JosefinSans = Josefin_Sans({
+});
+
+const viga = Viga({
+   weight: "400",
 });
 
 export const metadata = {
@@ -25,7 +28,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar/>
         {children}</body>
     </html>
   );

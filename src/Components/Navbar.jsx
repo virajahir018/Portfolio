@@ -1,7 +1,7 @@
 import Home from "@/app/page";
 import Link from "next/link";
-import { FaAddressBook, FaAddressCard, FaBreadSlice, FaBriefcase, FaClipboardList, FaDownload, FaEnvelope, FaFacebook, FaFacebookF, FaFile, FaFileAlt, FaGithub, FaHome, FaLinkedin, FaLinkedinIn, FaLocationArrow, FaMailBulk, FaMailchimp, FaMobile, FaMoon, FaPhone, FaRegEnvelope, FaRegEnvelopeOpen, FaTwitter, FaVoicemail } from "react-icons/fa";
-import { FaEnvelopeOpen, FaHouse, FaLocationDot, FaLocationPin, FaLocationPinLock, FaMobileScreen, FaUpwork } from "react-icons/fa6";
+import { FaAddressBook, FaAddressCard, FaBreadSlice, FaBriefcase, FaClipboardList, FaDownload, FaEnvelope, FaFacebook, FaFacebookF, FaFile, FaFileAlt, FaGithub, FaHome, FaLinkedin, FaLinkedinIn, FaLocationArrow, FaMailBulk, FaMailchimp, FaMobile, FaMoon, FaPhone, FaRegEnvelope, FaRegEnvelopeOpen, FaRegHourglass, FaTwitter, FaVoicemail } from "react-icons/fa";
+import { FaEnvelopeOpen, FaHouse, FaLocationDot, FaLocationPin, FaLocationPinLock, FaMobileScreen, FaRegHospital, FaUpwork } from "react-icons/fa6";
 
 export default function Navbar() {
     return (
@@ -22,7 +22,7 @@ export default function Navbar() {
                 <ul>
                     <li>
                         <Link className="navList-link" href="/">
-                            <FaHouse />
+                            <FaHouse/>
                             Home
                         </Link>
                     </li>
